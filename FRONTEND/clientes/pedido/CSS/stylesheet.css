@@ -1,0 +1,326 @@
+ .site {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+
+ /*cabeçalho*/
+header {
+    display: flex;
+    overflow: hidden;
+    height: 80px;
+    background-color: #F4B72D;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    float:inline-start; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+}
+
+.menu-logo {
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 3px;
+    padding: 10px;
+}
+
+.menu-title {
+    align-items:baseline;
+}
+
+.menu-item {
+    top: 1px;
+    right: 10px;
+    padding: 15px;
+    position: absolute;
+}
+
+.site-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+    min-height: 65vh;
+    max-height: fit-content;
+    background-color: rgba(255, 208, 0, 0.185) ;
+    margin: 8.5%;
+    border-radius: 15px;
+}
+
+.scroll {
+    height: 80%;
+    width: 99%;
+    overflow: scroll;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 208, 0, 0.329);
+    border-radius: 8px;
+    width: 85% !important; 
+    height: 85%;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: -7px 0 7px rgba(173, 171, 171, 0.336);
+    margin-top: 20px;
+    
+}
+
+
+.textosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    font-size: larger;
+    padding-left: 4.3%;
+    padding-top: 7%;
+}
+
+.total {
+    padding-left: 10%;
+    font-weight: bolder;
+}
+
+.price {
+    color: black;
+    font-weight: lighter;
+    padding-left: 19% !important;
+}
+
+.standardImg {
+
+    width: 25%;
+    height: 75%;
+}
+
+.standardImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*etiqueta de desconto/promoçâo*/
+/*.etiqueta {
+    display: flex;
+    background-color: #DC3636;
+    width: 40px;
+    height: 32px;
+    border-radius: 8px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.zindex2 {
+    position: relative;
+    z-index: 1;
+    padding-left: 18.8% !important;
+    padding-bottom: 17.8%;
+
+}*/
+
+/*contador*/
+.mainContador {
+    width: auto;
+    height: auto;
+}
+
+.zindex {
+    position: absolute;
+    z-index: 1;
+    padding-left: 57.8% !important;
+    padding-top: 13.8%;
+}
+
+
+.contador {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4B72D;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    
+}
+
+button {
+    width: 26px;
+    height: 26px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: #F4B72D;
+    color: white;
+    right: 100%;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#counting {
+    color: white;
+    font-weight: bold;   
+    font-size: medium;
+    padding-top:7%;
+}
+
+.ttl {
+    color: black;
+    padding-right: 47%;
+}
+
+/*botões inferiores*/
+.btn2-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 8%;
+}
+
+.row-item {
+    background-color: #A028D8;
+    border-radius: 50%;
+    width: 55px;
+    height: 50px;
+}
+
+.btn2-end {
+    background-color: #A028D8;
+    width: 100px;
+    height: 35px;
+    border-bottom: 2px black solid ;
+    box-shadow: 0 0 10px grey ;
+    border-radius: 8px;
+}
+
+.rowImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+h4 {
+    color: #8b8686;
+    font-weight: bold;
+    padding-right: 18%;
+    padding-top: 5%;
+}
+
+/*container com sugestões*/
+.row1 {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 208, 0, 0.329) ;
+    border-radius: 8px;
+    width: 28%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divisoria {
+    border-bottom: 1.5px solid #F4B72D;
+    width: 80%;
+    margin: 2px;
+}
+
+.container2 h5 {
+    color: white;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+/*botões inferiores*/
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+.row2 button {
+    background-color: #A028D8;
+    height: 35px;
+    border: 0px;
+    border-bottom: 3px black solid ;
+    box-shadow: 0 0 10px grey ;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1 {
+    width: 100px;
+
+}
+
+.btn2 {
+    width: 150px;
+}
+
+/*links rodapé*/
+footer {
+    background-color: #F4B72D;
+    display: flex;
+    align-items: center;
+}
+
+.menu-footer {
+    list-style: none;
+}
+
+.menu-footer li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+    display:block;
+}
+
+.footer-img {
+    padding-left: 700%;
+    padding-top: 8px;
+}
+

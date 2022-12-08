@@ -1,0 +1,106 @@
+body {
+    font-family: verdana;
+    overflow-x: hidden;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*cabeçalho*/
+header {
+    display: flex;
+    overflow: hidden;
+    height: 80px;
+    background-color: #F4B72D;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    float:inline-start; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+}
+
+.menu-logo {
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 3px;
+    padding: 10px;
+}
+
+.menu-title {
+    align-items:baseline;
+}
+
+.menu-item {
+    top: 1px;
+    right: -5px;
+    padding: 15px;
+    position: absolute;
+}
+
+.site-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.gif {
+    width: 30vh !important;
+    padding-left: 18.8%;
+}
+
+h1 {
+    text-align: center;
+    color: #43b94e;
+}
+
+/*rodapé*/
+footer {
+    background-color: #F4B72D;
+    color: white;
+    list-style: none;
+    overflow: auto;
+    border-top: 1px solid ;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*links rodapé*/
+
+.menu-footer {
+    list-style: none;
+}
+
+.menu-footer li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+    display:block;
+}
+
+.footer-img {
+    top: 1px;
+    right: 10px;
+    padding: 15px;
+    position: absolute;
+    width: 60px;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---css-->
+    <link rel="stylesheet" href="css/comum.css">
+    <title>Food & Grill</title>
+    <link rel="icon" type="image/png" href="IMG/Logo.png" />
+</head>
+
+<body>
+
+    <article class="site">
+        <div class="img">
+            <img src="img/Logo.png"><br>
+        </div>
+
+        <div class="text1">
+            <text>BEM VINDO!</text>
+        </div>
+
+        <div class="text2">
+            <text>DIGITE SEUS DADOS</text>
+        </div><br>
+
+        <form action = "http://192.168.0.108:1313/gravar-cliente" class="inputs">
+            <input type="text" placeholder="NOME:" id="nome" required />
+            <BR>
+            <input type="text" placeholder="N° DA SUA MESA:" id="mesa" required/>
+            <br>
+            <a href="../pagInicial/index.html"><input type="button" class="botao" value="AVANÇAR" onclick="enviarDados()"/></a>
+        </form><br>
+
+    </article>
+
+    <script src="inicio.js"></script>
+
+</body>
+
+</html>

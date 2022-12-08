@@ -1,0 +1,1 @@
+var cliente = sessionStorage.getItem('idCliente');
